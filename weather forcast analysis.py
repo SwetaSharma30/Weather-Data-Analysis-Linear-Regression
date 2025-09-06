@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # # Weather data analysis and linear regression
 
@@ -21,13 +20,13 @@ from sklearn.metrics import mean_squared_error, r2_score
 # In[3]:
 
 
-pd.read_csv(r"C:\Users\learn\OneDrive\Desktop\Intelligence data science internship\weather_data_extended.csv")
+pd.read_csv("weather_data_extended.csv")
 
 
 # In[4]:
 
 
-df= pd.read_csv(r"C:\Users\learn\OneDrive\Desktop\Intelligence data science internship\weather_data_extended.csv")
+df= pd.read_csv("weather_data_extended.csv")
 
 
 # In[5]:
@@ -246,20 +245,6 @@ plt.legend()
 plt.xticks(positions, ['Regression', 'Lasso', 'Ridge'])
 plt.show()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
